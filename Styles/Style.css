@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     position: relative;
+    padding: 20px;
 }
 
 .img-fondo {
@@ -29,21 +30,84 @@
 
 .imagen-nav {
     width: 100px;
+    margin-left: 20px; /* Ajusta el valor según lo necesites para posicionar la imagen a la derecha */
+    margin-top: 20px; /* Ajusta el valor según lo necesites para que el buscador esté un poco más abajo */
 }
 
 .elemento {
     font-style: italic;
     font-size: 3vw;
     position: absolute;
-    left: 84.5%;   
-    top: 2%;  
-}
+    left: 80%;   
+    top: 0%;  
+    display: flex;
+    justify-content: flex-end;
 
-.buscador {
-     
-    width: 700%;
-    text-align: center; /* Centra horizontalmente los elementos dentro del contenedor */
-}
-
-
+    
  
+}
+.elemento-nav{
+    display:block;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 210px;
+    margin: 20px 130px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(53, 90, 90)
+}
+.a:hover{
+    background-color: transparent;
+    border:2px solid rgba(0,255,76,0,77);
+    color: aqua;
+    
+}
+.logo{
+    margin-right: 30%;
+}
+
+
+
+
+input {
+    font: inherit;
+    
+}
+
+section {
+    min-height: 12vh;
+    display: flex;
+    
+}
+
+form {
+    margin: auto; /* Centra vertical y horizontalmente */
+}
+
+form > div {
+    display: flex;
+    background: #fff;
+    padding: 9px 322px 12px 26px;
+    border-radius: 30px;
+    border: 3px solid #cad3dc;
+    box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px, rgba(255, 255, 255, 0.5) -8px -8px 15px inset, rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+}
+
+form input {
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 25px; /* Ajusta el tamaño del texto */
+    background-image: url("img/buscador.png"); /* Cambia la ruta de la imagen según sea necesario */
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+
+form input:focus {
+    outline: none;
+    
+}
