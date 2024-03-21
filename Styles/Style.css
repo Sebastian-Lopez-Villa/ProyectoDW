@@ -27,7 +27,7 @@
 }
 
 .footer-links h4{
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(170, 113, 0.18);
     margin-bottom: 25px;
     font-weight: 500;
@@ -38,13 +38,14 @@
 }
 
 .footer-links ul li a{
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     color: rgb(66, 66, 66);
     display: block;
     margin-bottom: 15px;
     width: 240px;
     transition: all .3s ease;
+    font-family: "Cormorant SC", serif, regular;
 }
 
 .footer-links ul li a:hover{
@@ -82,16 +83,25 @@
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 15px;
+    font-family: "Cormorant SC", serif, regular;
+    font-size: 18px;
 }
 
 .footer-label-copyright{
-    font-size: 12px;
+    font-size: 18px;
+    font-family: "Cormorant SC", serif, regular;
 }
 
 .cormorant-garamond-regular {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.cormorant-sc-regular {
+    font-family: "Cormorant SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media(max-width:991px){
