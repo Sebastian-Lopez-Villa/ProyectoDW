@@ -27,7 +27,7 @@
 }
 
 .imagen-nav {
-    width: 100px;
+    width: 132px;
     margin-left: 20px; /* Ajusta el valor según lo necesites para posicionar la imagen a la derecha */
     margin-top: 20px; /* Ajusta el valor según lo necesites para que el buscador esté un poco más abajo */
 }
@@ -57,29 +57,34 @@
 }
 
 .logo {
-    margin-right: auto; /* Ajusta el margen derecho para que el logo se alinee a la izquierda */
+    margin-left: 45px; /* Centra el logo en el contenedor */
+    margin-right: 45px; /* Centra el logo en el contenedor */
     margin-top: -11px;
+    
 }
 
+
+
 section {
-    min-height: 12vh;
+    min-height: 11vh;
     display: flex;
-    flex: 2; /* Hace que el buscador ocupe el espacio disponible */
-    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    flex: 1; /* Hace que el buscador ocupe el espacio disponible */
+    justify-content: center; /* Alinea el contenido horizontalmente al centro */
+    align-items: center; /* Alinea el contenido verticalmente al centro */
 }
 
 form {
-    margin: auto; /* Centra vertical y horizontalmente */
     display: flex; /* Para que los elementos dentro del formulario puedan ser flexibles */
     align-items: center; /* Centra verticalmente el contenido del formulario */
-    width: 70%; /* Para que el formulario ocupe todo el ancho de la sección */
+    width: 76%; /* Para que el formulario ocupe todo el ancho de la sección */
 }
+
 
 form > div {
     background: #fff;
     padding: 9px 10px; /* Reduce el relleno del buscador */
     border-radius: 20px;
-    border: 3px solid #cad3dc;
+    border: 3px solid #d8d782;
     box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px, rgba(255, 255, 255, 0.5) -8px -8px 15px inset, rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
     flex: 1; /* Para que el contenedor del input se expanda */
 }
@@ -105,30 +110,30 @@ form input:focus {
     justify-content: center; /* Centra horizontalmente */
     margin-top: 170px; /* Mueve el elemento un poco hacia abajo */
 }
-
 .Sobre_Nosotros {
     font-family: "Dynalight", cursive;
-    font-size: 50px;
+    font-size: 4vw; /* Utilizando unidades vw */
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
-    padding: 15px 40px;
-    border-radius: 30px;
-    background-color: rgba(196, 161, 98, 0.5); /* Color de fondo transparente */
+    padding: 2vw 5vw; /* Utilizando unidades vw */
+    border-radius: 3vw; /* Utilizando unidades vw */
+    background-color: rgba(196, 161, 98, 0.5);
     transition: background-color 0.3s ease;
 }
 
 .Sobre_Nosotros:hover {
-    background-color: #d8d782; /* Cambia el color de fondo al pasar el cursor */
+    background-color: #d8d782;
 }
+
 .texto_fondo{
     font-family: "Herr Von Muellerhoff", cursive;
-    font-size: 270px;
+    font-size: 12vw; /* Utilizando unidades vw */
     font-weight: 400;
     font-style: normal;
     color: #d8d782;
     display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    margin-top: 20px; /* Mueve el elemento un poco hacia abajo */
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw; /* Utilizando unidades vw */
 }
