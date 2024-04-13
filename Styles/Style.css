@@ -84,7 +84,7 @@ form > div {
     background: #fff;
     padding: 9px 10px; /* Reduce el relleno del buscador */
     border-radius: 20px;
-    border: 3px solid #d8d782;
+    border: 1px solid #ffffff;
     box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px, rgba(255, 255, 255, 0.5) -8px -8px 15px inset, rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
     flex: 1; /* Para que el contenedor del input se expanda */
 }
@@ -136,4 +136,29 @@ form input:focus {
     align-items: center;
     justify-content: center;
     margin-top: 3vw; /* Utilizando unidades vw */
+}
+.menu-container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: space-between; /* Distribuye los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    padding-left: 5%; /* Ajusta el espacio a la izquierda */
+    padding-right: 10%; /* Ajusta el espacio a la derecha */
+    background-color: #a7a7a7; /* Establece el color de fondo */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.vertical-menu {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+.texto_fondo_menu {
+    margin: 18px 0; /* Margen superior e inferior de 20px, sin margen izquierdo y derecho */
+    font-size: 3.5vw; /* Utiliza el 4% del ancho de la ventana */
+}
+
+.texto_fondo_menu1 {
+    margin: 18px 0; /* Margen superior e inferior de 30px, sin margen izquierdo y derecho */
+    font-size: 6vw; /* Utiliza el 8% del ancho de la ventana */
 }
