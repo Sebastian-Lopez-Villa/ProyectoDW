@@ -28,7 +28,7 @@ function loginUser(event) {
     const contrasenaInput = document.querySelector('.form-box.login input[type="password"]');
 
     if (correoInput.value.trim() === correoFijo && contrasenaInput.value.trim() === contrasenaFija) {
-        window.location.href = 'pagina_correcta.html'; // Cambiar 'pagina_correcta.html' por la página a la que quieres redirigir
+        window.location.href = 'index.html'; // Cambiar 'pagina_correcta.html' por la página a la que quieres redirigir
     } else {
         alert('Correo electrónico o contraseña incorrectos');
     }
