@@ -131,11 +131,14 @@ form input:focus {
     font-size: 12vw; /* Utilizando unidades vw */
     font-weight: 400;
     font-style: normal;
-    color: #d8d782;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 3vw; /* Utilizando unidades vw */
+}
+span{
+    color: #fce40b;
 }
 .menu-container {
     display: flex;
